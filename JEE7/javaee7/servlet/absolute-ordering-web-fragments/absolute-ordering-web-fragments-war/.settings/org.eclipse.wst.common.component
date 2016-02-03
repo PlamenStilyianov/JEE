@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="absolute-ordering-web-fragments-war">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <dependent-module archiveName="fragment1-4.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fragment1/fragment1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="absolute-ordering-web-fragments-war"/>
+        <property name="java-output-path" value="/absolute-ordering-web-fragments-war/target/classes"/>
+    </wb-module>
+</project-modules>

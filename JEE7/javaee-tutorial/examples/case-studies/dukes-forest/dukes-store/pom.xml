@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.glassfish.javaeetutorial</groupId>
+        <artifactId>dukes-forest</artifactId>
+        <version>7.0.4-SNAPSHOT</version>
+    </parent>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <javaee.api.version>7.0</javaee.api.version>
+        <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
+        <maven.source.plugin.version>2.2.1</maven.source.plugin.version>
+        <maven.clean.plugin.version>2.5</maven.clean.plugin.version>
+        <maven.war.plugin.version>2.3</maven.war.plugin.version>
+        <maven.acr.plugin.version>1.0</maven.acr.plugin.version>
+        <maven.ear.plugin.version>2.8</maven.ear.plugin.version>
+        <maven.ejb.plugin.version>2.3</maven.ejb.plugin.version>
+        <maven.jar.plugin.version>2.4</maven.jar.plugin.version>
+        <maven.rar.plugin.version>2.3</maven.rar.plugin.version>
+        <maven.license.plugin.version>1.10.b1</maven.license.plugin.version>
+        <maven.release.plugin.version>2.4.1</maven.release.plugin.version>
+        <maven.exec.plugin.version>1.2.1</maven.exec.plugin.version>
+        <junit.version>4.11</junit.version>
+        <eclipselink.version>2.5.0</eclipselink.version>
+        <glassfish.embedded.version>3.2-b06</glassfish.embedded.version>
+        <cargo.plugin.version>1.4.4</cargo.plugin.version>
+        <glassfish.domain.name>domain1</glassfish.domain.name>
+        <glassfish.home>${glassfish.home.prefix}/glassfish4</glassfish.home>
+        <integration.container.id>glassfish4x</integration.container.id>
+    </properties>
+
+    <groupId>org.glassfish.javaeetutorial</groupId>
+    <artifactId>dukes-store</artifactId>
+    <packaging>war</packaging>
+
+    <name>dukes-store</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>events</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>entities</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>dukes-payment</artifactId>
+            <version>${project.version}</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>dukes-resources</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>${maven.exec.plugin.version}</version>
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <skip>false</skip>
+                    <executable>${glassfish.home}/bin/asadmin${glassfish.executables.suffix}</executable>
+                    <arguments>
+                        <argument>set</argument>
+                        <argument>server.security-service.activate-default-principal-to-role-mapping=true</argument>
+                        <argument>server.http-service.sso-enabled=true</argument>
+                    </arguments>
+                </configuration>
+            </plugin>          
+        </plugins>
+        
+    </build>
+
+</project>

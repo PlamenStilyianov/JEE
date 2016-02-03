@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.slf4j:slf4j-api:1.7.1">
+    <archive path="C:/Users/plamen/.m2/repository/org/slf4j/slf4j-api/1.7.1/slf4j-api-1.7.1.jar" />
+  </library>
+  <library name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.0.3">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/ws/xmlschema/xmlschema-core/2.0.3/xmlschema-core-2.0.3.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context:3.2.4.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-context/3.2.4.RELEASE/spring-context-3.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-bindings-soap:2.7.6">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/cxf/cxf-rt-bindings-soap/2.7.6/cxf-rt-bindings-soap-2.7.6.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-api:2.7.6">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/cxf/cxf-api/2.7.6/cxf-api-2.7.6.jar" />
+  </library>
+  <library name="Maven: xml-resolver:xml-resolver:1.2">
+    <archive path="C:/Users/plamen/.m2/repository/xml-resolver/xml-resolver/1.2/xml-resolver-1.2.jar" />
+  </library>
+  <library name="Maven: javax.xml.bind:jsr173_api:1.0">
+    <archive path="C:/Users/plamen/.m2/repository/javax/xml/bind/jsr173_api/1.0/jsr173_api-1.0.jar" />
+  </library>
+  <library name="Maven: xmlunit:xmlunit:1.1">
+    <archive path="C:/Users/plamen/.m2/repository/xmlunit/xmlunit/1.1/xmlunit-1.1.jar" />
+  </library>
+  <library name="Maven: commons-logging:commons-logging:1.1.1">
+    <archive path="C:/Users/plamen/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-frontend-simple:2.7.6">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/cxf/cxf-rt-frontend-simple/2.7.6/cxf-rt-frontend-simple-2.7.6.jar" />
+  </library>
+  <library name="Maven: org.springframework.ws:spring-ws-support:2.1.3.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/ws/spring-ws-support/2.1.3.RELEASE/spring-ws-support-2.1.3.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-orm:3.2.4.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-orm/3.2.4.RELEASE/spring-orm-3.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-tx:3.2.4.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-tx/3.2.4.RELEASE/spring-tx-3.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.slf4j:jcl-over-slf4j:1.7.1">
+    <archive path="C:/Users/plamen/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.1/jcl-over-slf4j-1.7.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jms:3.2.2.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-jms/3.2.2.RELEASE/spring-jms-3.2.2.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.apache.neethi:neethi:3.0.2">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/neethi/neethi/3.0.2/neethi-3.0.2.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-test:3.2.4.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-test/3.2.4.RELEASE/spring-test-3.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.ws:spring-ws-core:2.1.3.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/ws/spring-ws-core/2.1.3.RELEASE/spring-ws-core-2.1.3.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.hsqldb:hsqldb:2.3.0">
+    <archive path="C:/Users/plamen/.m2/repository/org/hsqldb/hsqldb/2.3.0/hsqldb-2.3.0.jar" />
+  </library>
+  <library name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final">
+    <archive path="C:/Users/plamen/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final.jar" />
+  </library>
+  <library name="Maven: antlr:antlr:2.7.7">
+    <archive path="C:/Users/plamen/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar" />
+  </library>
+  <library name="Maven: dom4j:dom4j:1.6.1">
+    <archive path="C:/Users/plamen/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" />
+  </library>
+  <library name="Maven: aopalliance:aopalliance:1.0">
+    <archive path="C:/Users/plamen/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" />
+  </library>
+  <library name="Maven: log4j:log4j:1.2.17">
+    <archive path="C:/Users/plamen/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar" />
+  </library>
+  <library name="Maven: junit:junit:4.11">
+    <archive path="C:/Users/plamen/.m2/repository/junit/junit/4.11/junit-4.11.jar" />
+  </library>
+  <library name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.2.Final">
+    <archive path="C:/Users/plamen/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar" />
+  </library>
+  <library name="Maven: javax.xml.bind:jaxb-api:2.2.7">
+    <archive path="C:/Users/plamen/.m2/repository/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar" />
+  </library>
+  <library name="Maven: org.javassist:javassist:3.15.0-GA">
+    <archive path="C:/Users/plamen/.m2/repository/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar" />
+  </library>
+  <library name="Maven: org.hamcrest:hamcrest-all:1.3">
+    <archive path="C:/Users/plamen/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-transports-http:2.7.6">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/cxf/cxf-rt-transports-http/2.7.6/cxf-rt-transports-http-2.7.6.jar" />
+  </library>
+  <library name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.2.0">
+    <archive path="C:/Users/plamen/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.2.0/woodstox-core-asl-4.2.0.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-bindings-xml:2.7.6">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/cxf/cxf-rt-bindings-xml/2.7.6/cxf-rt-bindings-xml-2.7.6.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-frontend-jaxws:2.7.6">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/cxf/cxf-rt-frontend-jaxws/2.7.6/cxf-rt-frontend-jaxws-2.7.6.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.bind:jaxb-core:2.2.7">
+    <archive path="C:/Users/plamen/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-web:3.1.1.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-web/3.1.1.RELEASE/spring-web-3.1.1.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.ws:spring-ws-test:2.1.3.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/ws/spring-ws-test/2.1.3.RELEASE/spring-ws-test-2.1.3.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-log4j12:1.7.5">
+    <archive path="C:/Users/plamen/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-core:4.2.4.Final">
+    <archive path="C:/Users/plamen/.m2/repository/org/hibernate/hibernate-core/4.2.4.Final/hibernate-core-4.2.4.Final.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-databinding-jaxb:2.7.6">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/cxf/cxf-rt-databinding-jaxb/2.7.6/cxf-rt-databinding-jaxb-2.7.6.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-core:3.2.4.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-core/3.2.4.RELEASE/spring-core-3.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: asm:asm:3.3.1">
+    <archive path="C:/Users/plamen/.m2/repository/asm/asm/3.3.1/asm-3.3.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-oxm:3.2.2.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-oxm/3.2.2.RELEASE/spring-oxm-3.2.2.RELEASE.jar" />
+  </library>
+  <library name="Maven: wsdl4j:wsdl4j:1.6.1">
+    <archive path="C:/Users/plamen/.m2/repository/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.bind:jaxb-impl:2.2.7">
+    <archive path="C:/Users/plamen/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-expression:3.2.4.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-expression/3.2.4.RELEASE/spring-expression-3.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.data:spring-data-commons:1.6.0.M1">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/data/spring-data-commons/1.6.0.M1/spring-data-commons-1.6.0.M1.jar" />
+  </library>
+  <library name="Maven: org.jboss.logging:jboss-logging:3.1.0.GA">
+    <archive path="C:/Users/plamen/.m2/repository/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-entitymanager:4.2.4.Final">
+    <archive path="C:/Users/plamen/.m2/repository/org/hibernate/hibernate-entitymanager/4.2.4.Final/hibernate-entitymanager-4.2.4.Final.jar" />
+  </library>
+  <library name="Maven: com.sun.istack:istack-commons-runtime:2.16">
+    <archive path="C:/Users/plamen/.m2/repository/com/sun/istack/istack-commons-runtime/2.16/istack-commons-runtime-2.16.jar" />
+  </library>
+  <library name="Maven: org.apache.geronimo.specs:geronimo-javamail_1.4_spec:1.7.1">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/geronimo/specs/geronimo-javamail_1.4_spec/1.7.1/geronimo-javamail_1.4_spec-1.7.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-beans:3.2.4.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-beans/3.2.4.RELEASE/spring-beans-3.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.1.Final">
+    <archive path="C:/Users/plamen/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-core:2.7.6">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/cxf/cxf-rt-core/2.7.6/cxf-rt-core-2.7.6.jar" />
+  </library>
+  <library name="Maven: org.hamcrest:hamcrest-core:1.3">
+    <archive path="C:/Users/plamen/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+  </library>
+  <library name="Maven: org.springframework.ws:spring-xml:2.1.3.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/ws/spring-xml/2.1.3.RELEASE/spring-xml-2.1.3.RELEASE.jar" />
+  </library>
+  <library name="Maven: commons-lang:commons-lang:2.5">
+    <archive path="C:/Users/plamen/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar" />
+  </library>
+  <library name="Maven: org.codehaus.woodstox:stax2-api:3.1.1">
+    <archive path="C:/Users/plamen/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-ws-policy:2.7.6">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/cxf/cxf-rt-ws-policy/2.7.6/cxf-rt-ws-policy-2.7.6.jar" />
+  </library>
+  <library name="Maven: org.springframework.data:spring-data-jpa:1.4.0.M1">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/data/spring-data-jpa/1.4.0.M1/spring-data-jpa-1.4.0.M1.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.fastinfoset:FastInfoset:1.2.12">
+    <archive path="C:/Users/plamen/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aop:3.2.4.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-aop/3.2.4.RELEASE/spring-aop-3.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: javax.xml.stream:stax-api:1.0-2">
+    <archive path="C:/Users/plamen/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar" />
+  </library>
+  <library name="Maven: org.apache.cxf:cxf-rt-ws-addr:2.7.6">
+    <archive path="C:/Users/plamen/.m2/repository/org/apache/cxf/cxf-rt-ws-addr/2.7.6/cxf-rt-ws-addr-2.7.6.jar" />
+  </library>
+  <library name="Maven: org.aspectj:aspectjweaver:1.7.3">
+    <archive path="C:/Users/plamen/.m2/repository/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar" />
+  </library>
+  <library name="Maven: org.aspectj:aspectjrt:1.7.2">
+    <archive path="C:/Users/plamen/.m2/repository/org/aspectj/aspectjrt/1.7.2/aspectjrt-1.7.2.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jdbc:3.2.4.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-jdbc/3.2.4.RELEASE/spring-jdbc-3.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-webmvc:3.2.2.RELEASE">
+    <archive path="C:/Users/plamen/.m2/repository/org/springframework/spring-webmvc/3.2.2.RELEASE/spring-webmvc-3.2.2.RELEASE.jar" />
+  </library>
+  <library name="CommMath">
+    <archive path="C:/Java/LIB/commons-math3-3.2/commons-math3-3.2.jar" />
+  </library>
+  <library name="EclipseLink">
+    <archive path="C:/Java/LIB/eclipselink/jlib/eclipselink.jar" />
+  </library>
+  <library name="faban">
+    <archive path="C:/Java/faban/lib/fabanagents.jar" />
+    <archive path="C:/Java/faban/lib/fabancommon.jar" />
+    <archive path="C:/Java/faban/lib/fabandriver.jar" />
+  </library>
+  <library name="ION 130">
+    <archive path="C:/PDF/ION/jmkv130/jmkv130.jar" />
+  </library>
+  <library name="jackson">
+    <archive path="C:/Java/LIB/jackson-core-master/jackson-all-1.7.9.jar" />
+    <archive path="C:/Java/LIB/jackson-core-master/com.fasterxml.jackson.core.jar" />
+  </library>
+  <library name="JEE">
+    <archive path="C:/Java/glassfish4/glassfish/modules/javax.ejb-api.jar" />
+    <archive path="C:/Java/glassfish4/glassfish/modules/javax.faces.jar" />
+    <archive path="C:/Java/glassfish4/glassfish/modules/javax.servlet-api.jar" />
+    <archive path="C:/Java/glassfish4/glassfish/modules/javax.servlet.jsp-api.jar" />
+    <archive path="C:/Java/glassfish4/glassfish/modules/javax.servlet.jsp.jstl-api.jar" />
+    <archive path="C:/Java/glassfish4/glassfish/modules/javax.transaction-api.jar" />
+    <archive path="C:/Java/glassfish4/glassfish/modules/javax.persistence.jar" />
+    <archive path="C:/Java/glassfish4/glassfish/modules/jta.jar" />
+    <archive path="C:/Java/glassfish4/glassfish/modules/javax.json.jar" />
+    <archive path="C:/Java/glassfish4/glassfish/modules/javax.ws.rs-api.jar" />
+  </library>
+  <library name="JFreeChart">
+    <archive path="C:/Java/LIB/jfreechart-1.0.17/lib/swtgraphics2d.jar" />
+    <archive path="C:/Java/LIB/jfreechart-1.0.17/lib/jfreechart-1.0.17.jar" />
+    <archive path="C:/Java/LIB/jfreechart-1.0.17/lib/jcommon-1.0.21.jar" />
+  </library>
+  <library name="Json">
+    <archive path="C:/Java/LIB/json/org.json-20120521.jar" />
+  </library>
+  <library name="JUnit 4">
+    <archive path="C:/Java/LIB/junit4.9/junit-4.9.jar" />
+    <archive path="C:/Java/LIB/junit4.9/junit-dep-4.9.jar" />
+  </library>
+  <library name="Log4j">
+    <archive path="C:/Java/LIB/apache-log4j-1.2.17/log4j-1.2.17.jar" />
+  </library>
+  <library name="Matlab">
+    <archive path="C:/Program Files/MATLAB/R2013a/toolbox/javabuilder/jar/win64/javabuilder.jar" />
+  </library>
+  <library name="Oracle11g">
+    <archive path="C:/app/plamen/product/11.2.0/dbhome_1/sqlj/lib/runtime12.jar" />
+    <archive path="C:/app/plamen/product/11.2.0/dbhome_1/sqlj/lib/runtime12ee.jar" />
+    <archive path="C:/app/plamen/product/11.2.0/dbhome_1/sqlj/lib/translator.jar" />
+    <archive path="C:/app/plamen/product/11.2.0/dbhome_1/jdbc/lib/ojdbc6.jar" />
+  </library>
+  <library name="Python 3.4.1 interpreter library">
+    <archive path="C:/Java/Python34/DLLs" />
+    <archive path="C:/Java/Python34/Lib" />
+    <archive path="C:/Java/Python34" />
+    <archive path="C:/Java/Python34/Lib/site-packages" />
+    <archive path="C:/Users/plamen/.IntelliJIdea13/system/python_stubs/125994589" />
+  </library>
+  <library name="sbt-013">
+    <archive path="C:/Java/sbt/bin/sbt-launch.jar" />
+  </library>
+  <library name="scala_2.11.0">
+    <archive path="C:/Java/scala/lib/akka-actor_2.11-2.3.2.jar" />
+    <archive path="C:/Java/scala/lib/config-1.2.0.jar" />
+    <archive path="C:/Java/scala/lib/jline-2.11.jar" />
+    <archive path="C:/Java/scala/lib/scala-actors-2.11.0.jar" />
+    <archive path="C:/Java/scala/lib/scala-actors-migration_2.11-1.1.0.jar" />
+    <archive path="C:/Java/scala/lib/scala-compiler.jar" />
+    <archive path="C:/Java/scala/lib/scala-continuations-library_2.11-1.0.1.jar" />
+    <archive path="C:/Java/scala/lib/scala-continuations-plugin_2.11.0-1.0.1.jar" />
+    <archive path="C:/Java/scala/lib/scala-library.jar" />
+    <archive path="C:/Java/scala/lib/scala-parser-combinators_2.11-1.0.1.jar" />
+    <archive path="C:/Java/scala/lib/scala-reflect.jar" />
+    <archive path="C:/Java/scala/lib/scala-swing_2.11-1.0.1.jar" />
+    <archive path="C:/Java/scala/lib/scala-xml_2.11-1.0.1.jar" />
+  </library>
+  <library name="SizeOf">
+    <archive path="C:/Java/LIB/SizeOf/SizeOf.jar" />
+  </library>
+</eclipse-userlibraries>
+

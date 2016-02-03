@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="batch/joboperator-api/src/main/java"/>
+	<classpathentry kind="src" path="batch/partition/src/main/java"/>
+	<classpathentry kind="src" path="batch/payroll/src/main/java"/>
+	<classpathentry kind="src" path="cdi/bean-validation/src/main/java"/>
+	<classpathentry kind="src" path="cdi/cdi-guess/src/main/java"/>
+	<classpathentry kind="src" path="cdi/cdi-servlet/src/main/java"/>
+	<classpathentry kind="src" path="cdi/events/src/main/java"/>
+	<classpathentry kind="src" path="cdi/interceptors/src/main/java"/>
+	<classpathentry kind="src" path="cdi/transaction-scoped/src/main/java"/>
+	<classpathentry kind="src" path="cdi/transactional/src/main/java"/>
+	<classpathentry kind="src" path="concurrency/executor/src/main/java"/>
+	<classpathentry kind="src" path="concurrency/schedule/src/main/java"/>
+	<classpathentry kind="src" path="concurrency/threads/src/main/java"/>
+	<classpathentry kind="src" path="connectors/mailconnector/mailconnector-mdb/src/main/java"/>
+	<classpathentry kind="src" path="connectors/mailconnector/mailconnector-ra/src/main/java"/>
+	<classpathentry kind="src" path="connectors/mailconnector/mailconnector-web/src/main/java"/>
+	<classpathentry kind="src" path="ejb/automatic-timer/automatic-timer-client/src/main/java"/>
+	<classpathentry kind="src" path="ejb/automatic-timer/automatic-timer-server/src/main/java"/>
+	<classpathentry kind="src" path="ejb/ejb-embedded/ejb-embedded-client/src/main/java"/>
+	<classpathentry kind="src" path="ejb/ejb-embedded/ejb-embedded-server/src/main/java"/>
+	<classpathentry kind="src" path="ejb/ejb32-war/src/main/java"/>
+	<classpathentry kind="src" path="ejb/hello-stateless-ejb/hello-stateless-ejb-bean/src/main/java"/>
+	<classpathentry kind="src" path="ejb/hello-stateless-ejb/hello-stateless-ejb-client/src/main/java"/>
+	<classpathentry kind="src" path="el/src/main/java"/>
+	<classpathentry kind="src" path="jsf/annotatedflow/src/main/java"/>
+	<classpathentry kind="src" path="jsf/customConverter/src/main/java"/>
+	<classpathentry kind="src" path="jsf/customValidator/src/main/java"/>
+	<classpathentry kind="src" path="jsf/dateTimeConverter/src/main/java"/>
+	<classpathentry kind="src" path="jsf/eventSource/src/main/java"/>
+	<classpathentry kind="src" path="jsf/filesystemrlc/src/main/java"/>
+	<classpathentry kind="src" path="jsf/flows/src/main/java"/>
+	<classpathentry kind="src" path="jsf/html5/src/main/java"/>
+	<classpathentry kind="src" path="jsf/overrideRenderer/src/main/java"/>
+	<classpathentry kind="src" path="jsf/packageCustomConverter/src/main/java"/>
+	<classpathentry kind="src" path="jsf/scrumtoys/app/src/main/java"/>
+	<classpathentry kind="src" path="jsf/scrumtoys/entities/src/main/java"/>
+	<classpathentry kind="src" path="jsf/scrumtoys/flows/manageStoryAttachments/src/main/java"/>
+	<classpathentry kind="src" path="jsonp/jaxrs/src/main/java"/>
+	<classpathentry kind="src" path="platform/movieplex7/src/main/java"/>
+	<classpathentry kind="src" path="rest/async-chat/src/main/java"/>
+	<classpathentry kind="src" path="rest/message-board/src/main/java"/>
+	<classpathentry kind="src" path="servlet/absolute-ordering-web-fragments/absolute-ordering-web-fragments-war/src/main/java"/>
+	<classpathentry kind="src" path="servlet/absolute-ordering-web-fragments/fragment1/src/main/java"/>
+	<classpathentry kind="src" path="servlet/absolute-ordering-web-fragments/fragment2/src/main/java"/>
+	<classpathentry kind="src" path="servlet/absolute-ordering-web-fragments/fragment3/src/main/java"/>
+	<classpathentry kind="src" path="servlet/annotation-war/src/main/java"/>
+	<classpathentry kind="src" path="servlet/async-request-war/src/main/java"/>
+	<classpathentry kind="src" path="servlet/dynamic-registration-war/src/main/java"/>
+	<classpathentry kind="src" path="servlet/http-upgrade-war/src/main/java"/>
+	<classpathentry kind="src" path="servlet/multipart-war/src/main/java"/>
+	<classpathentry kind="src" path="servlet/non-blocking-io-read-war/src/main/java"/>
+	<classpathentry kind="src" path="servlet/non-blocking-io-write-war/src/main/java"/>
+	<classpathentry kind="src" path="servlet/servlet-container-initializer/servlet-container-initializer-lib/src/main/java"/>
+	<classpathentry kind="src" path="servlet/servlet-container-initializer/servlet-container-initializer-war/src/main/java"/>
+	<classpathentry kind="src" path="servlet/session-cookie-config-war/src/main/java"/>
+	<classpathentry kind="src" path="websocket/auction/src/main/java"/>
+	<classpathentry kind="src" path="websocket/draw/src/main/java"/>
+	<classpathentry kind="src" path="websocket/tictactoe/client/src/main/java"/>
+	<classpathentry kind="src" path="websocket/tictactoe/server/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_60">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

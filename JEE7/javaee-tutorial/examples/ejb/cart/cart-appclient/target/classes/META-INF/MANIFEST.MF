@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: plamen
+Build-Jdk: 1.7.0_60
+Class-Path: cart-common-7.0.4-SNAPSHOT.jar
+Main-Class: javaeetutorial.cart.client.CartClient
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,60 @@
+<project name="hotel_reservation" default="create" basedir="..">
+
+    <target name="init">
+        <property environment="env"/>
+        <property name="service_home" value="${basedir}"/>
+        <property name="classes_dir" value="${service_home}/classes"/>
+        <property name="src_dir" value="${service_home}/src"/>
+		<property name="lib_dir" value="${env.AXIS2_HOME}/lib"/>
+		<property name="deploy_dir" value="${service_home}/deploy"/>
+        <property name="service_file" value="${service_home}/HotelReservation.aar"/>
+    </target>
+
+    <target name="create" depends="clean" description="creating the service aar">
+        <echo message="creating the service aar from ${service_home}"/>
+
+        <!-- creates deploy and class directoris -->
+        <mkdir dir="${deploy_dir}"/>
+        <mkdir dir="${deploy_dir}/META-INF"/>
+       <mkdir dir="${deploy_dir}/conf"/>
+		<mkdir dir="${classes_dir}"/>
+		
+    <path id="build.class.path">
+		<fileset dir="${lib_dir}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+       <javac destdir="${classes_dir}" srcdir="${src_dir}" debug="on">
+	   <classpath refid="build.class.path" />
+	   </javac>
+
+        <!-- copy the classes -->
+        <copy todir="${deploy_dir}">
+            <fileset dir="${classes_dir}"/>
+        </copy>
+				
+        <!-- copy services file -->
+        <copy file="conf/services.xml" todir="${deploy_dir}/META-INF"/>
+
+		<!-- copy mysql.properties file to conf directory -->
+		<copy file="conf/mysql.properties" todir="${deploy_dir}/conf"/>
+		
+		
+		<!-- copy the service keystore -->
+        <copy file="keystores/serviceks.jks" todir="${deploy_dir}/"/>
+		
+        <!-- create TestService.aar file -->
+        <jar destfile="${service_file}">
+            <zipfileset dir="${deploy_dir}" prefix=""/>
+        </jar>
+
+    </target>
+
+    <target name="clean" depends="init" description="deletes the old content">
+        
+        <delete dir="${deploy_dir}"/>
+        <delete dir="${classes_dir}"/>
+    </target>
+
+</project>

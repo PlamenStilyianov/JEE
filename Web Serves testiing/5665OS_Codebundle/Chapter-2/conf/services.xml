@@ -1,0 +1,107 @@
+<serviceGroup name="HotelReservation">
+    <service name="GuestManagementService"
+             targetNamespace="http://sample.com/reservation/guest">
+        <description>
+            Guest management web service
+        </description>
+        <schema schemaNamespace="http://sample.com/reservation/guest/types"
+                elementFormDefaultQualified="true">
+            <mapping namespace="http://sample.com/reservation/guest/types"
+                     package="com.sample.reservation.dto"/>
+        </schema>
+        <messageReceivers>
+
+            <messageReceiver mep="http://www.w3.org/2006/01/wsdl/in-only"
+                             class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+            <messageReceiver mep="http://www.w3.org/2006/01/wsdl/in-out"
+                             class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.sample.reservation.GuestManagementService</parameter>
+        <operation name="addGuest" mep="http://www.w3.org/2006/01/wsdl/in-out">
+            <actionMapping>urn:addGuest</actionMapping>
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </operation>
+        <operation name="getGuestDetails" mep="http://www.w3.org/2006/01/wsdl/in-out">
+            <actionMapping>urn:getGuestDetails</actionMapping>
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </operation>
+        <operation name="deleteGuest" mep="http://www.w3.org/2006/01/wsdl/in-only">
+            <actionMapping>urn:deleteGuest</actionMapping>
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+        </operation>
+    </service>
+
+    <service name="RoomManagementService"
+             targetNamespace="http://sample.com/reservation/room">
+        <description>
+            Room service
+        </description>
+        <schema schemaNamespace="http://sample.com/reservation/room/types"
+                elementFormDefaultQualified="true">
+            <mapping namespace="http://sample.com/reservation/room/types"
+                     package="com.sample.reservation.dto"/>
+        </schema>
+        <messageReceivers>
+
+            <messageReceiver mep="http://www.w3.org/2006/01/wsdl/in-only"
+                             class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+            <messageReceiver mep="http://www.w3.org/2006/01/wsdl/in-out"
+                             class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+           
+        </messageReceivers>
+        <parameter name="ServiceClass">com.sample.reservation.RoomManagementService</parameter>
+        <operation name="addRoom" mep="http://www.w3.org/2006/01/wsdl/in-out">
+            <actionMapping>urn:addRoom</actionMapping>
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </operation>
+        <operation name="getRoomDetails" mep="http://www.w3.org/2006/01/wsdl/in-out">
+            <actionMapping>urn:getRoomDetails</actionMapping>
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </operation>
+        <operation name="deleteRoom" mep="http://www.w3.org/2006/01/wsdl/in-only">
+            <actionMapping>urn:getRoomDetails</actionMapping>
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+        </operation>
+    </service>
+
+    <service name="ReservationService"
+             targetNamespace="http://sample.com/reservation/res">
+        <description>
+            Reservation web service
+        </description>
+        <schema schemaNamespace="http://sample.com/reservation/res/types"
+                elementFormDefaultQualified="true">
+            <mapping namespace="http://sample.com/reservation/res/types"
+                     package="com.sample.reservation.dto"/>
+        </schema>
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-only"
+                             class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+            <messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-out"
+                             class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+            <messageReceiver mep="http://www.w3.org/2006/01/wsdl/in-only"
+                             class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+            <messageReceiver mep="http://www.w3.org/2006/01/wsdl/in-out"
+                             class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-only"
+                             class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out"
+                             class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.sample.reservation.ReservationService</parameter>
+        <operation name="addReservation" mep="http://www.w3.org/2006/01/wsdl/in-out">
+            <actionMapping>urn:addReservation</actionMapping>
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </operation> 
+        <operation name="getReservationDetails" mep="http://www.w3.org/2006/01/wsdl/in-out">
+            <actionMapping>urn:getReservationDetails</actionMapping>
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+        </operation>
+        <operation name="removeReservation" mep="http://www.w3.org/2006/01/wsdl/in-only">
+            <actionMapping>urn:removeReservation</actionMapping>
+            <messageReceiver class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+        </operation>		
+    </service>
+
+
+</serviceGroup>

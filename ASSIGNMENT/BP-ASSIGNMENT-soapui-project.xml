@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="BP_ASSIGNMENT" resourceRoot="" soapui-version="5.1.0" id="2e24d6a3-9cb4-41cd-972f-1c35a1729d30" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="UserServiceServiceSoapBinding" type="wsdl" bindingName="{http://services.assignment.bp/}UserServiceServiceSoapBinding" soapVersion="1_1" anonymous="optional" definition="http://localhost:8080/bp_assignment/services/user_service?wsdl" id="b466c501-f0c7-460f-837e-61717cd97543" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://localhost:8080/bp_assignment/services/user_service?wsdl"><con:part><con:url>http://localhost:8080/bp_assignment/services/user_service?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="UserServiceService" targetNamespace="http://services.assignment.bp/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://services.assignment.bp/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http">
+  <wsdl:types>
+    <xs:schema targetNamespace="http://services.assignment.bp/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="addUser" type="tns:addUser"/>
+      <xs:element name="addUserResponse" type="tns:addUserResponse"/>
+      <xs:element name="averageAge" type="tns:averageAge"/>
+      <xs:element name="averageAgeResponse" type="tns:averageAgeResponse"/>
+      <xs:element name="findOldestUser" type="tns:findOldestUser"/>
+      <xs:element name="findOldestUserResponse" type="tns:findOldestUserResponse"/>
+      <xs:element name="findUsers" type="tns:findUsers"/>
+      <xs:element name="findUsersResponse" type="tns:findUsersResponse"/>
+      <xs:complexType name="findUsers">
+        <xs:sequence>
+          <xs:element name="arg0" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="findUsersResponse">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="addUser">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+          <xs:element name="arg1" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="addUserResponse">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="findOldestUser">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="findOldestUserResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="averageAge">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="averageAgeResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="findUsers">
+    <wsdl:part element="tns:findUsers" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findOldestUser">
+    <wsdl:part element="tns:findOldestUser" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addUser">
+    <wsdl:part element="tns:addUser" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findOldestUserResponse">
+    <wsdl:part element="tns:findOldestUserResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findUsersResponse">
+    <wsdl:part element="tns:findUsersResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="addUserResponse">
+    <wsdl:part element="tns:addUserResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="averageAgeResponse">
+    <wsdl:part element="tns:averageAgeResponse" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="averageAge">
+    <wsdl:part element="tns:averageAge" name="parameters"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="UserService">
+    <wsdl:operation name="findUsers">
+      <wsdl:input message="tns:findUsers" name="findUsers"></wsdl:input>
+      <wsdl:output message="tns:findUsersResponse" name="findUsersResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addUser">
+      <wsdl:input message="tns:addUser" name="addUser"></wsdl:input>
+      <wsdl:output message="tns:addUserResponse" name="addUserResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findOldestUser">
+      <wsdl:input message="tns:findOldestUser" name="findOldestUser"></wsdl:input>
+      <wsdl:output message="tns:findOldestUserResponse" name="findOldestUserResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="averageAge">
+      <wsdl:input message="tns:averageAge" name="averageAge"></wsdl:input>
+      <wsdl:output message="tns:averageAgeResponse" name="averageAgeResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UserServiceServiceSoapBinding" type="tns:UserService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="addUser">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="addUser">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="addUserResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findUsers">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="findUsers">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="findUsersResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findOldestUser">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="findOldestUser">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="findOldestUserResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="averageAge">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="averageAge">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="averageAgeResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UserServiceService">
+    <wsdl:port binding="tns:UserServiceServiceSoapBinding" name="UserServicePort">
+      <soap:address location="http://localhost:8080/bp_assignment/services/user_service"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://localhost:8080/bp_assignment/services/user_service</con:endpoint><con:endpoint>http://win7ult-x64:8088/mockUserServiceServiceSoapBinding</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="addUser" bindingOperationName="addUser" type="Request-Response" outputName="addUserResponse" inputName="addUser" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="82bc4237-b603-4570-8579-999cfa048c0c"><con:settings/><con:call name="Request 1" id="4a59112b-cb98-433e-a60c-be3027c8bfce"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/bp_assignment/services/user_service</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.assignment.bp/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:addUser>
+         <!--Optional:-->
+         
+         <arg0>serge</arg0><arg1>79</arg1>
+      </ser:addUser>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://services.assignment.bp/UserService/addUser"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="averageAge" bindingOperationName="averageAge" type="Request-Response" outputName="averageAgeResponse" inputName="averageAge" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="269bfe05-5b41-4bbc-b2d0-d37c6ec3f481"><con:settings/><con:call name="Request 1" id="c52d5379-c8c2-466a-9aeb-e2bb6c1a3369"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/bp_assignment/services/user_service</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.assignment.bp/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:averageAge/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://services.assignment.bp/UserService/averageAge"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="findOldestUser" bindingOperationName="findOldestUser" type="Request-Response" outputName="findOldestUserResponse" inputName="findOldestUser" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="ffc98b7d-9217-441b-9ba4-7da13cb948b4"><con:settings/><con:call name="Request 1" id="0f3b9e7a-4e1f-402a-b137-517ffdc255c9"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/bp_assignment/services/user_service</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.assignment.bp/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:findOldestUser/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://services.assignment.bp/UserService/findOldestUser"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="findUsers" bindingOperationName="findUsers" type="Request-Response" outputName="findUsersResponse" inputName="findUsers" receivesAttachments="false" sendsAttachments="false" anonymous="optional" id="51eb6057-ba17-42a5-b0b4-9638d40901ff"><con:settings/><con:call name="Request 1" id="4a49008c-d958-42ce-80f0-1021f1909af6"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:8080/bp_assignment/services/user_service</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.assignment.bp/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:findUsers>
+         <arg0>46</arg0>
+      </ser:findUsers>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://services.assignment.bp/UserService/findUsers"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:mockService port="8088" path="/mockUserServiceServiceSoapBinding" host="win7ult-x64" name="UserServiceServiceSoapBinding MockService" id="afdc6094-8545-47f6-9cf8-daad50b565de"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.mock.WsdlMockService@require-soap-action">false</con:setting></con:settings><con:mockOperation name="addUser" interface="UserServiceServiceSoapBinding" operation="addUser" id="2b2bb4d9-ef4a-4d38-82e6-2d217b59655b"><con:settings/><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:defaultResponse>Response 1</con:defaultResponse><con:response name="Response 1" encoding="UTF-8" id="9c8f90de-a6d3-4ac7-ba77-e85ce978881c" httpResponseStatus="200"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.assignment.bp/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:addUserResponse/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://services.assignment.bp/UserService/addUserResponse"/></con:response><con:dispatchConfig/></con:mockOperation><con:mockOperation name="averageAge" interface="UserServiceServiceSoapBinding" operation="averageAge" id="34f9b017-f586-450d-8bcb-6d973e4f510d"><con:settings/><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:defaultResponse>Response 1</con:defaultResponse><con:response name="Response 1" encoding="UTF-8" id="3c156d20-d3db-4644-bab5-123a2c0610e3" httpResponseStatus="200"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.assignment.bp/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:averageAgeResponse>
+         <return>?</return>
+      </ser:averageAgeResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://services.assignment.bp/UserService/averageAgeResponse"/></con:response><con:dispatchConfig/></con:mockOperation><con:mockOperation name="findOldestUser" interface="UserServiceServiceSoapBinding" operation="findOldestUser" id="7361be80-f197-49b3-9de8-2e62e127d321"><con:settings/><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:defaultResponse>Response 1</con:defaultResponse><con:response name="Response 1" encoding="UTF-8" id="edadd07d-87ee-4b99-841f-ed67edf46fb3" httpResponseStatus="200"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.assignment.bp/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:findOldestUserResponse>
+         <!--Optional:-->
+         <return>?</return>
+      </ser:findOldestUserResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://services.assignment.bp/UserService/findOldestUserResponse"/></con:response><con:dispatchConfig/></con:mockOperation><con:mockOperation name="findUsers" interface="UserServiceServiceSoapBinding" operation="findUsers" id="8911e994-8982-4fcd-b284-f8ccc4af9406"><con:settings/><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:defaultResponse>Response 1</con:defaultResponse><con:response name="Response 1" encoding="UTF-8" id="9ee580a2-adcd-4aa1-ba5a-caf59b945d28" httpResponseStatus="200"><con:settings/><con:responseContent><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.assignment.bp/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:findUsersResponse>
+         <!--Zero or more repetitions:-->
+         <return>?</return>
+      </ser:findUsersResponse>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://services.assignment.bp/UserService/findUsersResponse"/></con:response><con:dispatchConfig/></con:mockOperation><con:properties/></con:mockService><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting></con:soapui-project>

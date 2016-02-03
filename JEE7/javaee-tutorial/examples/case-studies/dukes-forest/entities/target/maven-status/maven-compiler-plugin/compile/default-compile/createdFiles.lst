@@ -1,0 +1,10 @@
+com\forest\entity\OrderDetail.class
+com\forest\entity\Administrator.class
+com\forest\entity\CustomerOrder.class
+com\forest\entity\Person.class
+com\forest\entity\Category.class
+com\forest\entity\OrderStatus.class
+com\forest\entity\Groups.class
+com\forest\entity\Customer.class
+com\forest\entity\Product.class
+com\forest\entity\OrderDetailPK.class
